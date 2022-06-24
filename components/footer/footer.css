@@ -1,0 +1,13 @@
+.footer {
+    height: 300px;
+    padding-top: 71px;
+    background-color: var(--main-background);
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+}
