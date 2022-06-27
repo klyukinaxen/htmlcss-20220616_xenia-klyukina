@@ -1,0 +1,74 @@
+@import '../../assets/fonts/fonts.css';
+
+.histogram {
+    box-sizing: border-box;
+    width: 354px;
+
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+
+    padding: 16px 24px;
+}
+
+.top-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-part__title,
+.top-part__subtitle,
+.top-part__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+
+    cursor: default;
+
+    color: var(--black);
+}
+
+.top-part__title {
+    font-size: 16px;
+    line-height: 24px;
+
+    opacity: 0.8;
+
+    margin: 0;
+}
+.top-part__subtitle {
+    font-size: 20px;
+    line-height: 26px;
+
+    padding-top: 6px;
+    margin: 0;
+}
+.top-part__link {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+
+    color: var(--blue);
+
+    cursor: pointer;
+
+    margin: 0;
+    padding-top: 3px;
+}
+
+.chart {
+    width: 100%;
+    height: 50px;
+    gap: 2px;
+
+    display: flex;
+    align-items: flex-end;
+
+    margin: 40px 0 24px 0;
+}
+
+.chart__column {
+    background-color: var(--blue);
+
+    flex: 1;
+    flex-basis: auto;
+}
