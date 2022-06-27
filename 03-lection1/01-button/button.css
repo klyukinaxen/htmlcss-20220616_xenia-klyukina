@@ -46,11 +46,11 @@
 .button_alternate {
     border: 1px solid var(--grey-border);
     background-color: var(--white);
-    color: black;
+    color: var(--black);
 
     transition: border 200ms ease;
 }
 
 .button_alternate:hover:not([disabled]) {
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
