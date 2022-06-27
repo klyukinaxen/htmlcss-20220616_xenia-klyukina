@@ -1,6 +1,5 @@
 /* Стилизация кнопки */
 .button {
-    /* width: 185px; */
     height: 48px;
 
     color: var(--white);
@@ -46,7 +45,7 @@
 
 .button_alternate {
     border: 1px solid var(--grey-border);
-    background-color: white;
+    background-color: var(--white);
     color: black;
 
     transition: border 200ms ease;
