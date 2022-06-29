@@ -8,6 +8,7 @@
     --purple-1: #5028c6;
     --blue: #374fc7;
     --blue-1: #2342c0;
+    --blue-2: #4263eb;
     --red: #f03d3e;
     --grey-1: #f8f9fa;
     --grey-2: #dde2e5;
@@ -24,6 +25,8 @@
 
     --blue-hover: var(--blue-1);
     --purple-hover: var(--purple-1);
+
+    --light-text-color: var(--grey-1);
 }
 
 * {
