@@ -1,9 +1,8 @@
 /* Стилизация кнопки */
 .button {
-    width: 185px;
-    height: 50px;
+    height: 48px;
 
-    color: white;
+    color: var(--white);
     cursor: pointer;
 
     border-radius: 8px;
@@ -11,12 +10,9 @@
 
     font-size: 16px;
     font-weight: 400;
-}
+    font-family: 'Roboto';
 
-.button_primary,
-.button_secondary,
-.button_alternate {
-    margin: 20px 0 20px 15px;
+    padding: 15px 62px 14px 63px;
 }
 
 .button_primary,
@@ -28,7 +24,7 @@
 .button_secondary:disabled,
 .button_alternate:disabled {
     opacity: 50%;
-    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .button_primary {
@@ -49,13 +45,12 @@
 
 .button_alternate {
     border: 1px solid var(--grey-border);
-    background-color: white;
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
 
     transition: border 200ms ease;
 }
 
 .button_alternate:hover:not([disabled]) {
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
-
