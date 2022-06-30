@@ -6,7 +6,7 @@
     padding: 24px 40px 24px 24px;
 }
 
-.line {
+.skeleton__line {
     height: 20px;
     background: linear-gradient(
         92.51deg,
@@ -41,11 +41,11 @@
     background-color: var(--grey-2);
 }
 
-.skeleton__title {
-    width: 70%;
+.skeleton__line_short {
+    width: 30%;
 }
-.skeleton__subtitle {
-    width: 100%;
+.skeleton__line_long {
+    width: 50%;
 }
 
 .skeleton__content-part {
