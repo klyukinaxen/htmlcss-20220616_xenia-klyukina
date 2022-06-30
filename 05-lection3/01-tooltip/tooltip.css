@@ -1,4 +1,4 @@
-.container {
+.tooltip__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,9 +8,6 @@
 .tooltip {
     position: relative;
     display: inline-flex;
-}
-.tooltip__trigger {
-    margin-top: 10px;
 }
 
 .tooltip__buble {
