@@ -1,13 +1,10 @@
-.tooltip__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 .tooltip {
     position: relative;
     display: inline-flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .tooltip__buble {
@@ -30,9 +27,8 @@
     border-radius: 10px;
 
     position: absolute;
-    bottom: 100%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-100%);
 }
 
 .tooltip__buble:after {
