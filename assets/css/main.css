@@ -6,8 +6,13 @@
     --pink: #f784ad;
     --purple: #7048e8;
     --purple-1: #5028c6;
+    --purple-2: #a0b1f5;
+    --purple-3: rgba(160, 177, 245, 0.2);
+    --blue-purple: #4263eb;
     --blue: #374fc7;
     --blue-1: #2342c0;
+    --blue-5: #334d6e;
+    --blue-6: #90a0b7;
     --red: #f03d3e;
     --grey-1: #f8f9fa;
     --grey-2: #dde2e5;
@@ -24,6 +29,12 @@
 
     --blue-hover: var(--blue-1);
     --purple-hover: var(--purple-1);
+
+    --blue-text: var(--blue-5);
+    --light-blue: var(--blue-6);
+
+    --light-purple: var(--purple-2);
+    --low-opacity-light-purple: var(--purple-3);
 }
 
 * {
