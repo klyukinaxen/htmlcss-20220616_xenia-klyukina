@@ -1,0 +1,11 @@
+.preview {
+    background-color: var(--grey-background);
+    padding: 68px 0;
+    font-size: 0;
+}
+
+.preview__inner {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

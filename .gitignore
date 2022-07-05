@@ -5,5 +5,9 @@ package-lock.json
 yarn.lock
 .DS_Store
 1-lection.html
+<<<<<<< HEAD
 3-lection.html
 2-lection.html
+=======
+2-lection.html
+>>>>>>> 4378db218c37bf6a31d597e8c6f5d64b3269e5b9
