@@ -2,17 +2,29 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="./accordion.css" />
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <main class="main">
+            <div class="accordion">
+                <details class="accordion__details first">
+                    <summary class="accordion__summary">accordion first</summary>
+                    <p class="accordion__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quos voluptate? Sit adipisci ipsum sequi ullam dicta velit fugit numquam quis, quaerat, sed nemo eius ab aut recusandae ad modi. </p>
+                </details>
+            </div>
+            <div class="accordion">
+                <details class="accordion__details second">
+                    <summary class="accordion__summary">accordion second</summary>
+                    <p class="accordion__text">don't forget to smile</p>
+                </details>
+            </div>
+            <div class="accordion">
+                <details class="accordion__details third">
+                    <summary class="accordion__summary">accordion third</summary>
+                    <p class="accordion__text">and have a good day :)</p>
+                </details>
+            </div>
+        </main>
     </body>
 </html>
