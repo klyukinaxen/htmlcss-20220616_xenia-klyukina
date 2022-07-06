@@ -1,17 +1,9 @@
 /* Стилизация аккордеона */
-@import '../../assets/fonts/fonts.css';
-
-.main {
-    margin: auto;
-    width: fit-content;
-}
-
-.accordion {
-    margin-top: 10px;
-}
 
 .accordion__details {
-    width: 730px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     box-sizing: border-box;
 
@@ -20,30 +12,16 @@
     border: 1px solid var(--grey-border);
     border-radius: 8px;
 
-    padding: 20px 0 20px 30px;
+    padding: 24px 0 24px 32px;
+
+    margin-top: 8px;
 }
 
 .accordion__summary {
-    font-weight: 400;
-}
-
-.accordion .accordion__summary {
     list-style: none;
 }
 
 .accordion__text {
-    margin: 16px 20px;
     font-weight: 200;
-}
-
-.accordion__details.first[open] {
-    background-color: var(--grey-1);
-}
-
-.accordion__details.second[open] {
-    background-color: rgba(89, 138, 113, 0.37);
-}
-
-.accordion__details.third[open] {
-    background-color: rgba(207, 214, 111, 0.37);
+    margin-bottom: 0;
 }
