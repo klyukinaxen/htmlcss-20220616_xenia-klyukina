@@ -1,6 +1,13 @@
 @import '../../node_modules/normalize.css/normalize.css';
 @import '../fonts/fonts.css';
 
+@import '../../components/header/header.css';
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
+@import '../../components/preview/preview.css';
+@import '../../components/card/card.css';
+@import '../../components/footer/footer.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -14,9 +21,15 @@
     --grey-2: #dde2e5;
     --grey-3: #acb5bd;
     --grey-4: #495057;
+    --grey-5: #f9fafc;
 
     --error: var(--red);
     --success: var(--blue);
+
+    --font-primary: var(--black);
+
+    --main-background: var(--white);
+    --grey-background: var(--grey-5);
 
     --primary: var(--blue);
     --secondary: var(--purple);
