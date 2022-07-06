@@ -1,0 +1,22 @@
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 30px;
+    grid-template-areas: 'header' 'content' 'footer';
+    height: 100vh;
+    margin: 0;
+}
+
+.page__header {
+    background-color: bisque;
+    grid-area: header;
+}
+
+.page__main {
+    grid-area: content;
+}
+
+.page__footer {
+    background-color: rgb(158, 158, 236);
+    grid-area: footer;
+}
