@@ -2,10 +2,21 @@
     background-color: var(--grey-background);
     padding: 68px 0;
     font-size: 0;
+    flex-grow: 1;
 }
 
 .preview__inner {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.preview__button {
+    margin-top: 34px;
+    border: 1px solid #acb5bd;
+    font-weight: 500;
+
+    text-align: center;
+    color: #495057;
 }
