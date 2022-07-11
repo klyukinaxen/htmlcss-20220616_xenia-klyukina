@@ -30,7 +30,7 @@
 
 .modal__title {
     cursor: default;
-    color: #334d6e;
+    color: var(--blue-3);
     margin: 15px 0;
 
     font-family: 'Inter';
@@ -50,15 +50,4 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-}
-
-.main {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-}
-
-#modal-close {
-    cursor: pointer;
 }
