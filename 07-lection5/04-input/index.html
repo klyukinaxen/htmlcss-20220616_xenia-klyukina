@@ -2,10 +2,50 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="./input.css" />
     </head>
     <body>
-
+        <div class="text-input">
+            <label class="text-input__label">Default</label>
+            <div class="input">
+                <input
+                    type="text"
+                    class="text-input__placeholder"
+                    placeholder="Placeholder"
+                />
+            </div>
+            <div class="text-input__state">
+                <div class="text-input__control"></div>
+            </div>
+        </div>
+        <div class="text-input">
+            <label class="text-input__label">Success</label>
+            <div class="input">
+                <input
+                    type="text"
+                    class="text-input__placeholder text-input__placeholder_success"
+                    placeholder="Success"
+                />
+                <div class="text-input__icon text-input__icon_success"></div>
+            </div>
+            <div class="text-input__state">
+                <div class="text-input__control"></div>
+            </div>
+        </div>
+        <div class="text-input">
+            <label class="text-input__label">Error</label>
+            <div class="input">
+                <input
+                    type="text"
+                    class="text-input__placeholder text-input__placeholder_invalid"
+                    placeholder="Error"
+                />
+                <div class="text-input__icon text-input__icon_invalid"></div>
+            </div>
+            <div class="text-input__state">
+                <div class="text-input__control"></div>
+            </div>
+        </div>
     </body>
 </html>
