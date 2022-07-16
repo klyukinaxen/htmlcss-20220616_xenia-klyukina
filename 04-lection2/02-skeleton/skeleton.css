@@ -6,7 +6,7 @@
     padding: 24px 40px 24px 24px;
 }
 
-.line {
+.skeleton__line {
     height: 20px;
     background: linear-gradient(
         92.51deg,
@@ -18,14 +18,14 @@
     );
 }
 
-.line_short {
+.skeleton__line_short {
     width: 30%;
 }
-.line_middle {
+.skeleton__line_middle {
     width: 50%;
 }
 
-.line_long {
+.skeleton__line_long {
     width: 100%;
 }
 
