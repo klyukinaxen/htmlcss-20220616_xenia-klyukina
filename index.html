@@ -4,10 +4,36 @@
     <head>
         <link rel="stylesheet" href="./assets/css/main.css" />
         <link rel="stylesheet" href="./03-lection1/01-button/button.css" />
+        <link rel="stylesheet" href="./07-lection5/03-toggler/toggler.css">
     </head>
     <body>
         <div class="page">
             <header class="header">
+                <div class="container header__top">
+                    <img
+                        src="./assets/images/logo.svg"
+                        alt=""
+                        class="header__logo"
+                    />
+                    <div class="header__menu">
+                        <div class="header__menu_item">Components</div>
+                        <div class="header__menu_item">About</div>
+                        <div class="header__menu_item">Contact</div>
+                        <div class="toggler">
+                            <img
+                                src="./assets/images/sun.svg"
+                                alt=""
+                                class="toggler_light-theme"
+                            />
+                            <div class="toggler__item"></div>
+                            <img
+                                src="./assets/images/moon.svg"
+                                alt=""
+                                class="toggler_dark-theme"
+                            />
+                        </div>
+                    </div>
+                </div>
                 <div class="container">
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
@@ -15,9 +41,7 @@
             <main class="preview">
                 <div class="container">
                     <div class="preview__inner">
-                        <div class="card preview__card">
-                            
-                        </div>
+                        <div class="card preview__card"></div>
                         <div class="card preview__card"></div>
                         <div class="card preview__card"></div>
                         <div class="card preview__card"></div>

@@ -7,6 +7,7 @@
 @import '../../components/preview/preview.css';
 @import '../../components/card/card.css';
 @import '../../components/footer/footer.css';
+@import '../../components/mobile/main-mobile.css';
 
 :root {
     --white: #ffffff;

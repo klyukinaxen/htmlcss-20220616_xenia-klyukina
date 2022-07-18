@@ -24,3 +24,9 @@
 
     color: #212429;
 }
+
+@media (max-width: 375px) {
+    .footer {
+        display: none;
+    }
+}

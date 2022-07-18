@@ -3,6 +3,30 @@
     background-color: var(--main-background);
 }
 
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu_item {
+    padding-right: 24px;
+}
+
+.toggler {
+    display: flex;
+}
+
+.toggler_light-theme,
+.toggler_dark-theme {
+    width: 24px;
+    height: 24px;
+}
+
 .header__title {
     font-family: 'Inter';
     font-style: normal;
