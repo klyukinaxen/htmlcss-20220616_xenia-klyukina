@@ -4,7 +4,6 @@
 }
 
 .text-input__label {
-    padding: 10px 0 10px 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -16,7 +15,7 @@
     color: var(--grey-3);
 }
 
-.input {
+.text-input__input {
     width: fit-content;
     position: relative;
 }
@@ -31,15 +30,15 @@
     background-repeat: no-repeat;
 }
 
-.text-input__icon_success {
+.text-input_success {
     background-image: url('../../assets/images/success.svg');
 }
 
-.text-input__icon_invalid {
+.text-input_invalid {
     background-image: url('../../assets/images/invalid.svg');
 }
 
-.text-input__placeholder {
+.text-input__field {
     min-width: 350px;
     min-height: 56px;
 
@@ -52,24 +51,22 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    
-    padding-left: 24px;
 }
 
-.text-input__placeholder_invalid {
+.text-input__field_invalid {
     border: 1px solid var(--red);
 }
 
-.text-input__placeholder::placeholder {
+.text-input__field::placeholder {
     color: var(--grey-2);
 }
 
-.text-input__placeholder:focus {
+.text-input__field:focus {
     border: 1px solid var(--blue-4);
     box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
 }
 
-.text-input__placeholder_invalid:focus ~ .text-input__icon,
-.text-input__placeholder_success:focus ~ .text-input__icon {
+.text-input__field_invalid:focus ~ .text-input__icon,
+.text-input__field_success:focus ~ .text-input__icon {
     display: none;
 }
