@@ -2,17 +2,49 @@
 <!-- Страница компонента -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
         <link rel="stylesheet" href="../assets/css/component-page.css" />
+        <link rel="stylesheet" href="../components/header/header.css" />
     </head>
     <body>
         <div class="page">
-            <div class="page__header"></div>
-            <div class="page__main">
-                <div class="menu"></div>
+            <div class="page__header">
+                <div class="container header__top">
+                    <img
+                        src="../assets/images/logo.svg"
+                        alt=""
+                        class="header__logo"
+                    />
+                    <div class="header__menu">
+                        <div class="header__menu_item active">Components</div>
+                        <div class="header__menu_item">About</div>
+                        <div class="header__menu_item">Contact</div>
+                        <div class="toggler">
+                            <img
+                                src="../assets/images/sun.svg"
+                                alt=""
+                                class="toggler_light-theme"
+                            />
+                            <div class="toggler__item"></div>
+                            <img
+                                src="../assets/images/moon.svg"
+                                alt=""
+                                class="toggler_dark-theme"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container page__main">
+                <div class="menu">
+                    <div class="menu__title">Avatar</div>
+                    <div class="menu__item">Custom form elements</div>
+                    <div class="menu__item">Button</div>
+                    <div class="menu__item">Avatar</div>
+                </div>
                 <div class="component"></div>
             </div>
-            <div class="page__footer">Reusable component library</div>
+            <div class="footer page__footer">Reusable component library</div>
         </div>
     </body>
 </html>
