@@ -44,11 +44,11 @@
     line-height: 24px;
     color: var(--grey-4);
 
-    padding-right: 25px;
+    /* padding-right: 25px; */
 }
 
 .toggle__input:checked ~ .toggle__state .toggle__control {
-    background: var(--blue-4);
+    background: blue;
 }
 
 .toggle__input:checked ~ .toggle__state .toggle__icon {
